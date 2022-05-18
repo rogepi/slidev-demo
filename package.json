@@ -1,0 +1,15 @@
+{
+  "name": "slidev",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@nuxt/kit": "npm:@nuxt/kit-edge@^3.0.0-rc.3-27540667.2886dfd",
+    "@slidev/cli": "^0.31.4",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  }
+}
